@@ -1,0 +1,24 @@
+class Laptop 
+{
+	public static void main(String[] args) 
+	{
+		Laptop laptop1 = new Laptop();
+		Laptop laptop2 = new Laptop();
+		laptop1.painting();
+		laptop2.painting();
+	}
+	public void write()
+	{
+		System.out.println("write in laptop");
+		painting();
+	}
+	public void painting()
+	{
+		System.out.println("Drawing a Painting");
+		shut()
+	}
+	public static void shut()
+	{
+		System.out.println("Switch off / on");
+	}
+}

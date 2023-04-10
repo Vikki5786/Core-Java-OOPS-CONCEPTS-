@@ -1,0 +1,25 @@
+class Employee 
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("Main Start");
+		work();
+		System.out.println("Main End");
+	}
+	public static void work()
+	{
+		//earn();
+		//Employee employee1 = new Employee();
+		//Employee employee2 = new Employee();
+		//employee1.entry();
+		//employee2.entry();
+	}
+	public static void earn()
+	{
+		System.out.println("Earn Start");
+	}
+	public void entry()
+	{
+		System.out.println("Entry Start");
+	}
+}
