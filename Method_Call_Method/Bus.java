@@ -1,0 +1,23 @@
+class Bus 
+{
+	public void apsrtc()
+	{
+		System.out.println("Apsrtc");
+	}
+	public void ksrtc()
+	{
+		System.out.println("KsRtc");
+		apsrtc();
+		tcsrtc();
+	}
+	public static void tcsrtc()
+	{
+		System.out.println("TcsRtc");
+	}
+	public static void main(String[] args) 
+	{
+		System.out.println("Main Star.......");
+		Bus bus = new Bus();
+		bus.ksrtc();
+	}
+}

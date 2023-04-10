@@ -1,0 +1,27 @@
+class SoftwareJobs 
+{
+	public static void main(String[] args) 
+	{
+		SoftwareJobs obj1 = new SoftwareJobs();
+		obj1.reactJs();
+		obj1.python();
+	}
+	public static void java()
+	{
+		System.out.println("Java Requirements for Freshers");
+	}
+	public static void sql()
+	{
+		System.out.println("SQL Requirements for Freshers");
+	}
+	public void reactJs()
+	{
+		System.out.println("React Js For Expirenced");
+		java();
+	}
+	public void python()
+	{
+		System.out.println("Python jobs for Freshers and also Experienced");
+		sql();
+	}
+}

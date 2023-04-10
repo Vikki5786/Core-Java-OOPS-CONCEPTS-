@@ -1,0 +1,9 @@
+class  Chair
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("Main Start..........");
+		System.out.println("Sit,Stand,Arrange,Lift ..........");
+		System.out.println("fill,drink,storee,empty ..........");
+	}
+}
