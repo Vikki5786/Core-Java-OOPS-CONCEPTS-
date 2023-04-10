@@ -1,0 +1,15 @@
+class BookingTicket 
+{
+	public static void busTicket()
+	{
+		System.out.println("Book The Bus Ticket");
+	}
+	public void cancleTicket()
+	{
+		System.out.println("Cancle The Bus Ticket");
+	}
+	public static void main(String[] args) 
+	{
+		System.out.println("Hello World!");
+	}
+}
