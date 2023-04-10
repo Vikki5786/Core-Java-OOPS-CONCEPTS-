@@ -1,0 +1,25 @@
+class Employee 
+{
+	public static String company = "DELL";
+	public String dept;
+	public static int salary = 31000;
+	public int experience;
+
+	public static void main(String[] args) 
+	{
+		Employee emp1 = new Employee();
+		Employee emp2 = new Employee();
+
+		emp1.dept = "USER";
+		emp1.experience = 4;
+		emp2.dept = "HR";
+		emp2.experience = 2;
+
+		System.out.println("Both are working in same Company : "+company);
+		System.out.println("Both Salary same : "+salary);
+		System.out.println(emp1.dept);
+		System.out.println(emp1.experience);
+		System.out.println(emp2.dept);
+		System.out.println(emp2.experience);
+	}
+}

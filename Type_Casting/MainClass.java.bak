@@ -1,0 +1,23 @@
+class Father
+{
+	public void car(){
+		System.out.println("Father Car color is blue");
+	}
+}
+class You extends Father
+{
+	public void car(){
+		System.out.println("Son Changed Blue Color to Red Color Car");
+	}
+}
+
+
+class MainClass 
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("One Day Father Asked Son to Give Hime Car Back");
+		Father father = (Father)new You();
+		father.car();
+	}
+}

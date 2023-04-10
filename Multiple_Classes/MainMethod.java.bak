@@ -1,0 +1,26 @@
+class Boat
+{
+	public int speed;
+	public static int distance = 500;
+	public Boat(int speed)
+	{
+		this.speed = speed;
+		int time = distance / speed;
+		System.out.println("boat travel speed "+speed + " to "+distance + " distance in " +time + " hours");
+	}
+}
+class River
+{
+	public static void RaceEvent()
+	{
+		Boat boat1 = new Boat(120);
+		Boat boat2 = new Boat(90);
+	}
+}
+class  MainMethod
+{
+	public static void main(String[] args) 
+	{
+		River.RaceEvent();
+	}
+}
